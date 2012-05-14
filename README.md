@@ -1,4 +1,4 @@
-Chainbench attempts to provide meaningful comparisons of the *relative* performance
+ Chainbench attempts to provide meaningful comparisons of the *relative* performance
 of different Java distributed locking frameworks, such as Hazelcast, Terracotta, etc.
 
 Each iteration it randomly selects a framework from a specified list, along with other parameters.
