@@ -16,7 +16,7 @@ As well as studying performance, Chainbench tests whether the locking framework 
 the contended resources from concurrent (dirty) updates. Collisions are detected via a Hibernate-style
 version field, and if one occurs it is immediately reported.
 
-A UI front end is used to select appropriate parameters.
+A UI front end (LWUIT) is used to select appropriate parameters.
 
 ### Currently supported frameworks:
 * Hazelcast 2.0
