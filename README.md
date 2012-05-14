@@ -2,7 +2,7 @@ Chainbench attempts to provide meaningful comparisons of the *relative* performa
 of different Java distributed locking frameworks, such as Hazelcast, Terracotta, etc.
 
 For each run it randomly selects a framework from a specified list, as well as randomly selecting other
-parameters such as the number of servers, threads per server, and contended resources.
+parameters such as the number of servers, threads per server, and contended resources from specified ranges.
 The results of each run are logged to a results file.
 
 By averaging over many such iterations (i.e. using multiple runs per data point), as well as calculating
