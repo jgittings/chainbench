@@ -12,6 +12,10 @@ can be drawn about the relative performance of these frameworks.
 
 Each thread in each server competes to randomly update one of the contended resources (a database record).
 
+As well as studying performance, Chainbench tests whether the locking framework does actually protect
+the contended resources from concurrent (dirty) updates. Collisions are detected via a Hibernate-style
+version field, and if one occurs it is immediately reported.
+
 A UI front end is used to select appropriate parameters.
 
 ### Currently supported frameworks:
