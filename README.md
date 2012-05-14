@@ -1,16 +1,20 @@
- Chainbench attempts to provide meaningful comparisons of the *relative* performance
+Chainbench attempts to provide meaningful comparisons of the *relative* performance
 of different Java distributed locking frameworks, such as Hazelcast, Terracotta, etc.
 
-Each iteration it randomly selects a framework from a specified list, along with other parameters.
+For each run it randomly selects a framework from a specified list, as well as randomly selecting other
+parameters such as the number of servers, threads per server, and contended resources.
+The results of each run are logged to a results file.
 
-By averaging over many such iterations (i.e. using multiple runs per data point), meaningful conclusions
+By averaging over many such iterations (i.e. using multiple runs per data point), as well as calculating
+the standard error for each data point, it is our contention that temporary variations in system
+resources are averaged out, and meaningful conclusions
 can be drawn about the relative performance of these frameworks.
 
 Each thread in each server competes to randomly update one of the contended resources (a database record).
 
-A UI front end is used to select the locking framework and appropriate parameters.
+A UI front end is used to select appropriate parameters.
 
-### Currently supported frameworks (selectable from a combo box):
+### Currently supported frameworks:
 * Hazelcast 2.0
 * Ehcache/Terracotta 2.0
 * Gemfire
@@ -19,6 +23,7 @@ A UI front end is used to select the locking framework and appropriate parameter
 
 ### The following parameters are supported:
 * Results output file
+* Locking framework or list of frameworks
 * DB connection parameters
 * Number of servers to launch (or range for generating a graph)
 * Number of threads per server (or range for generating a graph)
