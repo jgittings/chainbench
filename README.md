@@ -18,17 +18,17 @@ Currently supported frameworks (selectable from a combo box) are:
 * Infinispan
 
 The following parameters are supported:
-*Results output file
-*DB connection parameters
-*Number of servers to launch (or range for generating a graph)
-*Number of threads per server (or range for generating a graph)
-*External boxes to push some servers to via SSH
-*Number of contended resources being competed for (i.e. what we’re protecting with the locks)
-*Heap size of servers
-*Heap exhaustion % of each server (to simulate low heap conditions)
-*Locking enabled?  (to check the locking framework is actually doing something). If locking is switched off, collisions occur which are detected by the utility.
-*Nodes to stall and when to stall them
-*Nodes to run slow and when and how to slow them down
+* Results output file
+* DB connection parameters
+* Number of servers to launch (or range for generating a graph)
+* Number of threads per server (or range for generating a graph)
+* External boxes to push some servers to via SSH
+* Number of contended resources being competed for (i.e. what we’re protecting with the locks)
+* Heap size of servers
+* Heap exhaustion % of each server (to simulate low heap conditions)
+* Locking enabled?  (to check the locking framework is actually doing something). If locking is switched off, collisions occur which are detected by the utility.
+* Nodes to stall and when to stall them
+* Nodes to run slow and when and how to slow them down
 
 Metrics gathered per contended resource:
 *Last/Mean/Worst time to acquire lock  (both in real clock time and in CPU time)
