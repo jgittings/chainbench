@@ -1,0 +1,6 @@
+bin/
+lib/
+gluonj.debug/
+.settings/
+.classpath
+.project
