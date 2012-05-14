@@ -10,14 +10,14 @@ Each thread in each server competes to randomly update one of the contended reso
 
 A UI front end is used to select the locking framework and appropriate parameters.
 
-Currently supported frameworks (selectable from a combo box) are:
+### Currently supported frameworks (selectable from a combo box):
 * Hazelcast 2.0
 * Ehcache/Terracotta 2.0
 * Gemfire
 * Apache Zookeeper via recipes (pending licensing review)
 * Infinispan
 
-The following parameters are supported:
+### The following parameters are supported:
 * Results output file
 * DB connection parameters
 * Number of servers to launch (or range for generating a graph)
@@ -30,10 +30,10 @@ The following parameters are supported:
 * Nodes to stall and when to stall them
 * Nodes to run slow and when and how to slow them down
 
-Metrics gathered per contended resource:
-*Last/Mean/Worst time to acquire lock  (both in real clock time and in CPU time)
+### Metrics gathered per contended resource:
+* Last/Mean/Worst time to acquire lock  (both in real clock time and in CPU time)
 
-Metrics gathered per server/thread:
-*Locks granted, locks refused,   granted/total lock requests
+### Metrics gathered per server/thread:
+* Locks granted, locks refused,   granted/total lock requests
 
 
