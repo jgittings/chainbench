@@ -25,7 +25,7 @@ A UI front end is used to select appropriate parameters.
 * Apache Zookeeper via recipes (pending licensing review)
 * Infinispan
 
-### The following parameters are supported:
+### Supported parameters:
 * Results output file
 * Locking framework or list of frameworks
 * DB connection parameters
