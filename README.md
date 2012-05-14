@@ -24,6 +24,7 @@ A UI front end is used to select appropriate parameters.
 * Gemfire
 * Apache Zookeeper via recipes (pending licensing review)
 * Infinispan
+
 Adding a new framework only requires implementing a simple adapter class.
 
 ### Supported parameters:
