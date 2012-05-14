@@ -1,0 +1,18 @@
+Chainbench
+(C) Copyright 2012 Hewlett-Packard Company, LP
+
+This product includes:
+
+AspectJ
+Licensed under the Apache 1.1 license.
+http://www.apache.org/
+
+JSch
+Licensed under a BSD style license.
+http://www.jcraft.com/jsch/
+
+LWUIT (source code only)
+Licensed under the GPL + classpath exception
+http://lwuit.java.net/
+
+
