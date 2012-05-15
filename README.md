@@ -20,8 +20,12 @@ version field, and if one occurs it is immediately reported.
 
 A UI front end (LWUIT) is used to select appropriate parameters.
 
-<!-- ![Sample results](/jgittings/chainbench/raw/master/hazelcastVersusTerracotta.png) -->
 <img src="https://github.com/jgittings/chainbench/raw/master/hazelcastVersusTerracotta.png" width="600" >
+
+Sample results comparing Hazelcast 2.0.1 with Terracotta 2.0. 1-9 servers, 1 thread per server,
+3 contended resources, 2000 lock iterations per run. Total of 231 runs -> average 23 runs per data point.
+Error bars are standard error of the mean.
+
 
 ### Currently supported frameworks:
 * Hazelcast 2.0
