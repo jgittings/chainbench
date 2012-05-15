@@ -22,10 +22,12 @@ A UI front end (LWUIT) is used to select appropriate parameters.
 
 <img src="https://github.com/jgittings/chainbench/raw/master/hazelcastVersusTerracotta.png" width="600" >
 
-*Sample results comparing Hazelcast 2.0.1 with Terracotta 2.0. 1-9 servers, 1 thread per server,
-3 contended resources, 2000 lock iterations per run. Total of 230 runs -> average 23 runs per data point.
+*Sample results comparing Hazelcast 2.0.1 with Terracotta 2.0. 1-9 nodes, 1 thread per node,
+3 contended resources, 2000 lock iterations per run.
+Total of 230 runs -> average 23 runs per data point.
 Times are clock time, not CPU time.
-Dual 2.80 Ghz cores, Windows 7.
+Single Terracotta server. All nodes and Terracotta server hosted on single physical server
+with dual 2.80 Ghz cores, Windows 7.
 Error bars are standard error of the mean. [Source data](/jgittings/chainbench/blob/master/hcVersusTC_15May2012.xlsx).*
 
 
