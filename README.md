@@ -21,7 +21,7 @@ version field, and if one occurs it is immediately reported.
 A UI front end (LWUIT) is used to select appropriate parameters.
 
 <!-- ![Sample results](/jgittings/chainbench/raw/master/hazelcastVersusTerracotta.png) -->
-<img src="https://github.com/jgittings/chainbench/raw/master/hazelcastVersusTerracotta.png" width="400" >
+<img src="https://github.com/jgittings/chainbench/raw/master/hazelcastVersusTerracotta.png" width="600" >
 
 ### Currently supported frameworks:
 * Hazelcast 2.0
