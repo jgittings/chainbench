@@ -20,7 +20,7 @@ version field, and if one occurs it is immediately reported.
 
 A UI front end (LWUIT) is used to select appropriate parameters.
 
-![Sample results](/hazelcastVersusTerracotta.png)
+![Sample results](/jgittings/hazelcastVersusTerracotta.png)
 
 ### Currently supported frameworks:
 * Hazelcast 2.0
