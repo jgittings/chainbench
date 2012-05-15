@@ -2,7 +2,7 @@ Chainbench attempts to provide meaningful comparisons of the *relative* performa
 of different Java distributed locking frameworks, such as Hazelcast, Terracotta, etc.
 
 For each run it randomly selects a framework from a specified list, as well as randomly selecting other
-parameters such as the number of servers, threads per server, and contended resources from specified ranges.
+parameters such as the number of servers, threads per server, and number of contended resources from specified ranges.
 The results of each run are logged to a results file.
 
 By averaging over many such runs (i.e. using multiple runs per data point), as well as calculating
@@ -19,6 +19,13 @@ the contended resources from concurrent (dirty) updates. Collisions are detected
 version field, and if one occurs it is immediately reported.
 
 A UI front end (LWUIT) is used to select appropriate parameters.
+
+<img src="https://github.com/jgittings/chainbench/raw/master/hazelcastVersusTerracotta.png" width="600" >
+
+*Sample results comparing Hazelcast 2.0.1 with Terracotta 2.0. 1-9 servers, 1 thread per server,
+3 contended resources, 2000 lock iterations per run. Total of 230 runs -> average 23 runs per data point.
+Error bars are standard error of the mean.*
+
 
 ### Currently supported frameworks:
 * Hazelcast 2.0
