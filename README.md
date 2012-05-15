@@ -24,7 +24,7 @@ A UI front end (LWUIT) is used to select appropriate parameters.
 
 *Sample results comparing Hazelcast 2.0.1 with Terracotta 2.0. 1-9 servers, 1 thread per server,
 3 contended resources, 2000 lock iterations per run. Total of 230 runs -> average 23 runs per data point.
-Error bars are standard error of the mean.*
+Error bars are standard error of the mean. [Source data](/about/).*
 
 
 ### Currently supported frameworks:
