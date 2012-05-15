@@ -20,6 +20,8 @@ version field, and if one occurs it is immediately reported.
 
 A UI front end (LWUIT) is used to select appropriate parameters.
 
+![Sample results](/hazelcastVersusTerracotta.png)
+
 ### Currently supported frameworks:
 * Hazelcast 2.0
 * Ehcache/Terracotta 2.0
